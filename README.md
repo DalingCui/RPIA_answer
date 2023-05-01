@@ -6,7 +6,7 @@ Design a mechnism to reallocate the IR exposure into these tenors.
 1. we can use duration matching method to rellocate the IR exposure in each tenor, so that the duration in each tenor is in line with the index
 
 the client is concerned about underperformance vs the index, but not outperformance.
-1. we ganrantee this by setting the contrain condition that tracking error >=0, where tracking error = return of portfolio - return of index.
+1. we ganrantee this by setting the contraint condition that tracking error >=0, where tracking error = return of portfolio - return of index.
 
 Any other ideas you can think of to improve the optimizer? It can be only theoretical.
 1. we may also need to consider the transaction fees and bond liquidity
